@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+}
+
+/* Formulário elegante */
+.formulario {
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Título elegante */
+.form-title {
+  font-family: 'Georgia', serif;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  border-bottom: 2px solid #CD212A;
+  padding-bottom: 10px;
+}
+
+/* Inputs e textarea */
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  border-color: #008C45;
+  outline: none;
+}
+
+/* Botão com cores da Itália */
+.formulario button {
+  background: linear-gradient(to right, #008C45, #F4F5F0, #CD212A);
+  color: #000;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.formulario button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .form-title {
+    font-size: 22px;
+  }
+
+  .formulario {
+    padding: 20px;
+  }
+}

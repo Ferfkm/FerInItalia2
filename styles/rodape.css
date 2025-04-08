@@ -1,0 +1,32 @@
+footer {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 10px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  footer .bi {
+    font-size: 28px;
+    margin: 0 12px;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+  }
+  
+  footer .bi:hover {
+    transform: scale(1.2);
+    color: #ffe600;
+  }
+  
+  footer .mt-3 {
+    font-size: 14px;
+    color: #e0e0e0;
+    margin-top: 5px;
+  }

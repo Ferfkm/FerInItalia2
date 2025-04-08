@@ -1,0 +1,25 @@
+.texto_presente{
+    background: var(--roxo-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 1.5em 1em;
+    margin: 1.5em 1em ;
+    line-height: 25px;
+}
+.carrossel__titulo2{
+    color: var(--roxo);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -3em;
+    
+}
+#texto_presente{
+    background: linear-gradient(45deg, rgb(0, 0, 0), transparent);
+}
+.paragrafo_1{
+    margin-top: 2em;
+    font-weight: 600;
+}
